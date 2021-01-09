@@ -1,0 +1,51 @@
+body {
+    background: #fff;
+    font-family: 'Open sans', sans-serif;
+}
+
+header {
+    margin-top: 30px;
+}
+
+header .nav {
+    min-height: 80px;
+    overflow: hidden;
+    border-bottom: solid  rgba(0, 0, 0, 0.5);
+}
+
+/*-- LOGO --*/ 
+
+header .logo h2 ,
+header .logo span ,
+header .logo p
+{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .logo h2 {
+    font-family: 'Rammetto One';
+    text-transform: uppercase;
+}
+
+header .logo .icono { color: #bfbfbf;}
+
+header .logo p {color: #777777;}
+
+/* --- MENU ---*/
+
+header .menu a {
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+/*-- header .menu .c-1 { background: #3da5e2;}
+header .menu .c-2 { background: #3592c9;}
+header .menu .c-3 { background: #3684b1;}
+header .menu .c-4 { background: #26658a;}
+header .menu .c-5 { background: #163c52;}
+header .menu .c-6 { background: #0e2533;}
+header .menu .c-7 { background: #040d13;} --*/
