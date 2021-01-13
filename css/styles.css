@@ -3,6 +3,7 @@ body {
     font-family: 'Open sans', sans-serif;
 }
 
+
 header {
     margin-top: 30px;
 }
@@ -25,7 +26,7 @@ header .logo p
 }
 
 header .logo h2 {
-    font-family: 'Rammetto One';
+    font-weight: 800;
     text-transform: uppercase;
 }
 
@@ -49,3 +50,41 @@ header .menu .c-4 { background: #26658a;}
 header .menu .c-5 { background: #163c52;}
 header .menu .c-6 { background: #0e2533;}
 header .menu .c-7 { background: #040d13;} --*/
+
+/*-- SECTION HELLO --*/
+
+section {
+    margin: 50px;
+}
+
+section .titulo {
+    
+ }
+
+section span {
+   margin-left: 0;
+}
+
+section .icono {
+    padding: 10px;
+    margin-left:15px ;
+    text-decoration: none;
+    color: #000;
+}
+
+section .btnn{
+   margin-right:40px;
+}
+
+/*--- SECCION PORTFOLIO */
+
+section .categorias a {
+    color: #9b9b9b;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+section .categorias a.activo {
+    color: #000;
+}
